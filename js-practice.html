@@ -1,62 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JavaScript practice</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Practice</title>
 </head>
 <body>
-  <h1>Your JavaScript page</h1>
-  <p>Use your Inspector to view your console.</p>
-  <script>
-    // Your code will go here
-    console.log("Let's do math:");
-    let x =5;
-    console.log(x);
-    let y = 3;
-    console.log(y);
-    let z = x * y;
-    console.log(z);
+    <h1>Your JavaScript Page</h1>
+    <p>Use your Inspector to view your console.</p>
+    <script>
+        // Your code will go here
+        console.log("Let's do math:");
 
-    console.log("Working with strings:");
-    let firstName = 'Campbell';
-    let middleName = 'Grace';
-    let lastName = 'Raney';
-    let name = firstName + " " + middleName + " " + lastName;
-    console.log(name)
+        let x = 5;
+        console.log(x);
+        let y = 3;
+        console.log(y);
+        let z = x * y;
+        console.log(z);
 
-    // Strings on my own
-    let greeting = 'My name is ' + name;
-    console.log(greeting)
+        console.log("Working with strings:");
 
-    console.log("Using functions:");
+        let firstName = 'Campbell';
+        let middleName = 'Grace';
+        let lastName = 'Raney';
+        let name = firstName + " " + middleName + " " + lastName;
+        console.log(name);
 
-    // function to make square numbers
-    function makeSquare(theNumb) {
-  let squared = theNumb * theNumb;
-  return squared;
-}
-  let try01 = makeSquare(3);
-  console.log(try01);
-  let try02 = makeSquare(5);
-  console.log(try02);
-  let try03 = makeSquare(7);
-  console.log(try03);
+        // Strings on my own
+        let greeting = 'My name is ' + name;
+        console.log(greeting);
 
-  function makeSquare(num) {
-  return num * num;
-}
-    // Functions on my own
-    function makeName(firstName, middleName, lastName) {
-  return firstName + ' ' + middleName + ' ' + lastName;
-}
-  let fullName01 = makeName("Carter", "Philip", "Raney");
-  console.log(fullName01);
-  let fullName02 = makeName("Lorie", "Jean", "Raney");
-  console.log(fullName02);
-  let fullName03 = makeName("Robert", "\"Beto\"", "O'Rourke");
-  console.log(fullName03);
+        console.log("Using functions:");
 
-  </script>
+        // Function to make square numbers
+        function makeSquare(theNumb) {
+            return theNumb * theNumb;
+        }
+
+        let try01 = makeSquare(3);
+        console.log(try01);
+        let try02 = makeSquare(5);
+        console.log(try02);
+        let try03 = makeSquare(7);
+        console.log(try03);
+
+        // Functions on my own
+        function makeName(firstName, middleName, lastName) {
+            return firstName + ' ' + middleName + ' ' + lastName;
+        }
+
+        let fullName01 = makeName("Carter", "Philip", "Raney");
+        console.log(fullName01);
+        let fullName02 = makeName("Lorie", "Jean", "Raney");
+        console.log(fullName02);
+        let fullName03 = makeName("Robert", "\"Beto\"", "O'Rourke");
+        console.log(fullName03);
+    </script>
 </body>
 </html>
